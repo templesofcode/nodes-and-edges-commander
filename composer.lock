@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "38a3efae49504763d62f15b63bc5b25d",
+    "content-hash": "ae6b10680e3a0406dd84033803207e55",
     "packages": [
         {
             "name": "psr/container",
@@ -312,12 +312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/templesofcode/nodes-and-edges.git",
-                "reference": "ffae5497907d38057d993a5ce1f0e55a7bb15996"
+                "reference": "69bace1ece44736ed1c583f8019afea23e185f5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/templesofcode/nodes-and-edges/zipball/ffae5497907d38057d993a5ce1f0e55a7bb15996",
-                "reference": "ffae5497907d38057d993a5ce1f0e55a7bb15996",
+                "url": "https://api.github.com/repos/templesofcode/nodes-and-edges/zipball/69bace1ece44736ed1c583f8019afea23e185f5a",
+                "reference": "69bace1ece44736ed1c583f8019afea23e185f5a",
                 "shasum": ""
             },
             "require": {
@@ -345,7 +345,7 @@
                 "algorithms",
                 "php"
             ],
-            "time": "2020-05-06T07:01:33+00:00"
+            "time": "2020-05-06T14:19:10+00:00"
         }
     ],
     "packages-dev": [],
@@ -356,6 +356,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.1"
+    },
     "platform-dev": []
 }

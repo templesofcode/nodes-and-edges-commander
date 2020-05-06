@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "php": ">=7.1",
     "templesofcode/nodes-and-edges": "dev-master",
     "symfony/console": "v5.0.8"
   },

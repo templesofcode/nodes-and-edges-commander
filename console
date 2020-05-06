@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/vendor/autoload.php';
+
+use TemplesOfCode\NodesAndEdges\Command\StrongComponentsCommand;
+use TemplesOfCode\NodesAndEdges\Command\TopologicalOrderCommand;
+use Symfony\Component\Console\Application;
+use TemplesOfCode\NodesAndEdges\Command\PrintGraphCommand;
+use TemplesOfCode\NodesAndEdges\Command\GraphInfoCommand;
+use TemplesOfCode\NodesAndEdges\Command\DFSCommand;
+use TemplesOfCode\NodesAndEdges\Command\DFSPathCommand;
+use TemplesOfCode\NodesAndEdges\Command\BFSPathCommand;
+
+$application = new Application();
+
+$application->add(new PrintGraphCommand());
+$application->add(new GraphInfoCommand());
+$application->add(new DFSCommand());
+$application->add(new DFSPathCommand());
+$application->add(new BFSPathCommand());
+$application->add(new TopologicalOrderCommand());
+$application->add(new StrongComponentsCommand());
+try {
+    $application->run();
+} catch (Exception $e) {
+}
+

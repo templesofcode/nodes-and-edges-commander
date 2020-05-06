@@ -1,0 +1,19 @@
+{
+  "name": "templesofcode/nodes-edges-commander",
+  "description": "Set of driver commands for the nodes-and-edges library",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "templesofcode",
+      "email": "templesofcode@gmail.com"
+    }
+  ],
+  "require": {
+    "templesofcode/nodes-and-edges": "dev-master",
+    "symfony/console": "v5.0.8"
+  },
+  "autoload": {
+    "psr-4": {"TemplesOfCode\\NodesAndEdges\\": "src/"}
+  }
+}
